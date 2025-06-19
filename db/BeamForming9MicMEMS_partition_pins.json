@@ -1,0 +1,177 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pcm_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[8]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[9]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[10]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[11]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[12]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[13]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[14]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_data[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pcm_valid",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[0]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[1]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[2]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[3]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[4]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[5]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[6]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[7]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[8]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[9]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_estimate[10]",
+					"strict" : false
+				},
+				{
+					"name" : "doa_valid",
+					"strict" : false
+				},
+				{
+					"name" : "beam_enable",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "pdm_data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pdm_data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "pdm_data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "pdm_data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "pdm_data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "pdm_data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "pdm_data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tms",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tck",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdi",
+					"strict" : false
+				},
+				{
+					"name" : "altera_reserved_tdo",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

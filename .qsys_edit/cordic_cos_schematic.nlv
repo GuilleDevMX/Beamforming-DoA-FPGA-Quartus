@@ -1,0 +1,11 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst cordic_cos.CORDIC_0 -pg 1 -lvl 1 -y 30
+preplace inst cordic_cos -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc EXPORT<net_container>cordic_cos</net_container>(SLAVE)CORDIC_0.s,(SLAVE)cordic_cos.s) 1 0 1 NJ
+preplace netloc EXPORT<net_container>cordic_cos</net_container>(SLAVE)CORDIC_0.clk,(SLAVE)cordic_cos.clk) 1 0 1 NJ
+preplace netloc EXPORT<net_container>cordic_cos</net_container>(SLAVE)CORDIC_0.a,(SLAVE)cordic_cos.a) 1 0 1 NJ
+preplace netloc EXPORT<net_container>cordic_cos</net_container>(SLAVE)CORDIC_0.c,(SLAVE)cordic_cos.c) 1 0 1 NJ
+preplace netloc EXPORT<net_container>cordic_cos</net_container>(SLAVE)CORDIC_0.areset,(SLAVE)cordic_cos.areset) 1 0 1 NJ
+levelinfo -pg 1 0 50 180
+levelinfo -hier cordic_cos 60 90 170

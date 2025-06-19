@@ -1,0 +1,2 @@
+v1
+PORT_SWAPPING,PORT_SWAPPING_FINISHED,LOW_PASS_FIR:proc_chain[0].fir_inst|LOW_PASS_FIR_0002:low_pass_fir_inst|LOW_PASS_FIR_0002_ast:LOW_PASS_FIR_0002_ast_inst|LOW_PASS_FIR_0002_rtl_core:\real_passthrough:hpfircore_core|lpm_mult:u0_m0_wo0_mtree_mult1_0_component|mult_fcu:auto_generated|mac_mult1,

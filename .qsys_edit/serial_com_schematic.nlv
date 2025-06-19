@@ -1,0 +1,13 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst serial_com.rs232_0 -pg 1 -lvl 1 -y 150
+preplace inst serial_com.clk_0 -pg 1 -lvl 1 -y 30
+preplace inst serial_com -pg 1 -lvl 1 -y 40 -regy -20
+preplace netloc POINT_TO_POINT<net_container>serial_com</net_container>(MASTER)clk_0.clk,(SLAVE)rs232_0.clk) 1 0 2 200 100 530
+preplace netloc EXPORT<net_container>serial_com</net_container>(SLAVE)serial_com.reset,(SLAVE)clk_0.clk_in_reset) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>serial_com</net_container>(SLAVE)rs232_0.avalon_data_transmit_sink,(MASTER)rs232_0.avalon_data_receive_source) 1 0 2 240 120 490
+preplace netloc EXPORT<net_container>serial_com</net_container>(SLAVE)rs232_0.external_interface,(SLAVE)serial_com.rs232_0_external_interface) 1 0 1 NJ
+preplace netloc POINT_TO_POINT<net_container>serial_com</net_container>(MASTER)clk_0.clk_reset,(SLAVE)rs232_0.reset) 1 0 2 220 140 510
+preplace netloc EXPORT<net_container>serial_com</net_container>(SLAVE)clk_0.clk_in,(SLAVE)serial_com.clk) 1 0 1 NJ
+levelinfo -pg 1 0 170 570
+levelinfo -hier serial_com 180 270 550

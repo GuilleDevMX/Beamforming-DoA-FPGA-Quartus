@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon May  5 12:54:26 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Standard Edition
+Revision Name : BeamForming9MicMEMS
+Top-level Entity Name : BeamForming
+Family : Cyclone IV E
+Total logic elements : 5,500
+    Total combinational functions : 4,333
+    Dedicated logic registers : 3,781
+Total registers : 3781
+Total pins : 56
+Total virtual pins : 0
+Total memory bits : 6,104
+Embedded Multiplier 9-bit elements : 26
+Total PLLs : 1

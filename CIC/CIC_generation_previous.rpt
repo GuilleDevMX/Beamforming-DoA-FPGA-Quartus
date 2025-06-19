@@ -1,0 +1,28 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\CIC.qsys" --block-symbol-file --output-directory="C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\CIC" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading FPGA/CIC.qsys
+Progress: Reading input file
+Progress: Adding cic_ii_0 [altera_cic_ii 23.1]
+Progress: Parameterizing module cic_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\CIC.qsys" --synthesis=VERILOG --output-directory="C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\CIC\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading FPGA/CIC.qsys
+Progress: Reading input file
+Progress: Adding cic_ii_0 [altera_cic_ii 23.1]
+Progress: Parameterizing module cic_ii_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: CIC: Generating CIC "CIC" for QUARTUS_SYNTH
+Info: cic_ii_0: "CIC" instantiated altera_cic_ii "cic_ii_0"
+Info: CIC: Done "CIC" with 2 modules, 30 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Jun 12 08:24:52 2025
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Standard Edition
+Revision Name : BeamForming
+Top-level Entity Name : BeamForming
+Family : Cyclone IV E
+Device : EP4CE6E22C8
+Timing Models : Final
+Total logic elements : 4,728 / 6,272 ( 75 % )
+    Total combinational functions : 4,074 / 6,272 ( 65 % )
+    Dedicated logic registers : 3,154 / 6,272 ( 50 % )
+Total registers : 3154
+Total pins : 66 / 92 ( 72 % )
+Total virtual pins : 0
+Total memory bits : 5,232 / 276,480 ( 2 % )
+Embedded Multiplier 9-bit elements : 22 / 30 ( 73 % )
+Total PLLs : 1 / 2 ( 50 % )

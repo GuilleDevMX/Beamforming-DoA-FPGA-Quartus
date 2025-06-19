@@ -1,0 +1,48 @@
+
+State Machine - |BeamForming|LOW_PASS_FIR:proc_chain[5].fir_inst|LOW_PASS_FIR_0002:low_pass_fir_inst|LOW_PASS_FIR_0002_ast:LOW_PASS_FIR_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+Name sink_state.state_bit_2 sink_state.state_bit_1 sink_state.state_bit_0 
+sink_state.start 0 0 0 
+sink_state.stall 0 1 0 
+sink_state.run1 0 0 1 
+sink_state.st_err 0 1 1 
+sink_state.end1 1 0 0 
+
+State Machine - |BeamForming|LOW_PASS_FIR:proc_chain[4].fir_inst|LOW_PASS_FIR_0002:low_pass_fir_inst|LOW_PASS_FIR_0002_ast:LOW_PASS_FIR_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+Name sink_state.state_bit_2 sink_state.state_bit_1 sink_state.state_bit_0 
+sink_state.start 0 0 0 
+sink_state.stall 0 1 0 
+sink_state.run1 0 0 1 
+sink_state.st_err 0 1 1 
+sink_state.end1 1 0 0 
+
+State Machine - |BeamForming|LOW_PASS_FIR:proc_chain[3].fir_inst|LOW_PASS_FIR_0002:low_pass_fir_inst|LOW_PASS_FIR_0002_ast:LOW_PASS_FIR_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+Name sink_state.state_bit_2 sink_state.state_bit_1 sink_state.state_bit_0 
+sink_state.start 0 0 0 
+sink_state.stall 0 1 0 
+sink_state.run1 0 0 1 
+sink_state.st_err 0 1 1 
+sink_state.end1 1 0 0 
+
+State Machine - |BeamForming|LOW_PASS_FIR:proc_chain[2].fir_inst|LOW_PASS_FIR_0002:low_pass_fir_inst|LOW_PASS_FIR_0002_ast:LOW_PASS_FIR_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+Name sink_state.state_bit_2 sink_state.state_bit_1 sink_state.state_bit_0 
+sink_state.start 0 0 0 
+sink_state.stall 0 1 0 
+sink_state.run1 0 0 1 
+sink_state.st_err 0 1 1 
+sink_state.end1 1 0 0 
+
+State Machine - |BeamForming|LOW_PASS_FIR:proc_chain[1].fir_inst|LOW_PASS_FIR_0002:low_pass_fir_inst|LOW_PASS_FIR_0002_ast:LOW_PASS_FIR_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+Name sink_state.state_bit_2 sink_state.state_bit_1 sink_state.state_bit_0 
+sink_state.start 0 0 0 
+sink_state.stall 0 1 0 
+sink_state.run1 0 0 1 
+sink_state.st_err 0 1 1 
+sink_state.end1 1 0 0 
+
+State Machine - |BeamForming|LOW_PASS_FIR:proc_chain[0].fir_inst|LOW_PASS_FIR_0002:low_pass_fir_inst|LOW_PASS_FIR_0002_ast:LOW_PASS_FIR_0002_ast_inst|auk_dspip_avalon_streaming_sink_hpfir:sink|sink_state
+Name sink_state.state_bit_2 sink_state.state_bit_1 sink_state.state_bit_0 
+sink_state.start 0 0 0 
+sink_state.stall 0 1 0 
+sink_state.run1 0 0 1 
+sink_state.st_err 0 1 1 
+sink_state.end1 1 0 0 

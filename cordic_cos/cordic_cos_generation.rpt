@@ -1,0 +1,35 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\cordic_cos.qsys" --block-symbol-file --output-directory="C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\cordic_cos" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading FPGA/cordic_cos.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 23.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\cordic_cos.qsys" --synthesis=VERILOG --output-directory="C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\cordic_cos\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading FPGA/cordic_cos.qsys
+Progress: Reading input file
+Progress: Adding CORDIC_0 [altera_CORDIC 23.1]
+Progress: Parameterizing module CORDIC_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: cordic_cos: Generating cordic_cos "cordic_cos" for QUARTUS_SYNTH
+Info: CORDIC_0: C:/intelfpga/23.1std/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneIVE -frequency 50 -name cordic_cos_CORDIC_0 -noChanValid -faithfulRounding -printMachineReadable -noFileGenerate -constrainLatency 4 -speedgrade 8 FXPSinCosCordic 11 8 1 8
+Info: CORDIC_0: Minimum acheivable latency at given frequency is 4 cycles, register padding will occur to meet latency target if necessary
+Info: CORDIC_0: C:/intelfpga/23.1std/quartus/dspba/backend/windows64/cmdPolyEval -target CycloneIVE -frequency 50 -name cordic_cos_CORDIC_0 -noChanValid -faithfulRounding -printMachineReadable -lang VHDL -constrainLatency 4 -speedgrade 8 FXPSinCosCordic 11 8 1 8
+Info: CORDIC_0: DSP Blocks Used: 0
+Info: CORDIC_0: LUTs Used: 894
+Info: CORDIC_0: Memory Bits Used: 0
+Info: CORDIC_0: Memory Blocks Used: 0
+Info: CORDIC_0: "cordic_cos" instantiated altera_CORDIC "CORDIC_0"
+Info: cordic_cos: Done "cordic_cos" with 2 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

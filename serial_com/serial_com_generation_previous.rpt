@@ -1,0 +1,34 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\serial_com.qsys" --block-symbol-file --output-directory="C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\serial_com" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading FPGA/serial_com.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 23.1]
+Progress: Parameterizing module clk_0
+Progress: Adding rs232_0 [altera_up_avalon_rs232 17.1]
+Progress: Parameterizing module rs232_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\serial_com.qsys" --synthesis=VERILOG --output-directory="C:\Users\LENOVO\Documents\1415063H\Procesamiento de senales\FPGA\serial_com\synthesis" --family="Cyclone IV E" --part=EP4CE6E22C8
+Progress: Loading FPGA/serial_com.qsys
+Progress: Reading input file
+Progress: Adding clk_0 [clock_source 23.1]
+Progress: Parameterizing module clk_0
+Progress: Adding rs232_0 [altera_up_avalon_rs232 17.1]
+Progress: Parameterizing module rs232_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: serial_com: Generating serial_com "serial_com" for QUARTUS_SYNTH
+Info: rs232_0: Starting Generation of RS232 UART
+Info: rs232_0: "serial_com" instantiated altera_up_avalon_rs232 "rs232_0"
+Info: rst_controller: "serial_com" instantiated altera_reset_controller "rst_controller"
+Info: serial_com: Done "serial_com" with 3 modules, 9 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
